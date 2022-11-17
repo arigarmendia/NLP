@@ -9,6 +9,7 @@ Estructura del repositorio:
 │   ├── bot.ipynb
 ├── Desafio_3
 │   ├── my_embeddings.ipynb
+│   ├── graficos_TSNE
 ├── README.md
 ├──.gitignore
 ```
