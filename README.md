@@ -1,7 +1,9 @@
-# NLP
-Repositorio para la materia Procesamiento del Lenguaje Natural
+### Carrera de Especialización en Inteligencia Artificial (CEIA)
+## **Procesamiento del Lenguaje Natural (NLP)**<br />
 
-Estructura del repositorio:
+### Alumna: Ariadna Garmendia - 5ta Cohorte 2022 <br />
+
+Estructura del repositorio:<br />
 ```bash
 ├── Desafio_1
 │   ├── Word2vector.ipynb
@@ -10,15 +12,21 @@ Estructura del repositorio:
 ├── Desafio_3
 │   ├── my_embeddings.ipynb
 │   ├── graficos_TSNE
+├── Desafio_4
+│   ├── pred_next_word.ipynb
+│   ├── dataset
 ├── README.md
 ├──.gitignore
 ```
-Descripción de los trabajos:
-*   Desafío 1: Word2vec
+Descripción de los trabajos: <br />
+*   Desafío 1: [Word2vec](https://github.com/arigarmendia/NLP/blob/main/Desafio_1/Word2vector.ipynb)<br />
     Implementación de varias funciones para transformar palabras a vectores, utilizando únicamente Numpy. Incluye identificación del vocabulario del corpus, transformación de los documentos del corpus con One-Hot encoding, TF, TF-IDF y una función para calcular Similitud Coseno.  
 
-*   Desafío 2: Bot 
+*   Desafío 2: [Bot](https://github.com/arigarmendia/NLP/blob/main/Desafio_2/bot.ipynb) <br />
     Implementación de un Bot simple en Español con librería Spacy Stanza. El bot busca la respuesta por medio del cálculo de Similitud coseno comparando con todas las frases de un corpus previamente transformadas con TF-IDF. El texto del corpus fue tomado de una página Web que contiene frases icónicas de los Simpsons. 
 
-*   Desafío 3: Custom embeddings con Gensim
+*   Desafío 3: [Custom embeddings con Gensim](https://github.com/arigarmendia/NLP/tree/main/Desafio_3) <br />
     Generación y ensayo de embeddings creados con la librería Gensim a partir de los modelos CBOW y Skipgram. Los embeddings se generaron a partir de un corpus en español basado en el cuento "El caballero de la armadura oxidada". Para visualizar agrupación entre vectores se utilizó TSNE con librería Sklearn.
+
+*   Desafío 4: Predictor de próxima palabra <br />
+    Ensayo de predictor "many-to-one" utilizando embeddings y redes LSTM. Se utilizó un corpus basado en letras de canciones en inglés de la banda Coldplay (aprox. 62k palabras). Adicionalmente se probó un generador de secuencias autorregresivo utilizando los modelos ensayados.
