@@ -1,9 +1,11 @@
-### Carrera de Especialización en Inteligencia Artificial (CEIA)
-## **Procesamiento del Lenguaje Natural (NLP)**<br />
+### CEIA - FIUBA
 
-### Alumna: Ariadna Garmendia - 5ta Cohorte 2022 <br />
+## **Procesamiento de Lenguaje Natural (NLP)**<br />
 
-Estructura del repositorio:<br />
+### Alumna: Ariadna Garmendia - 5ta Cohorte 2022 <br /><br />
+
+
+> ### Estructura del repositorio:<br />
 ```bash
 ├── Desafio_1
 │   ├── Word2vector.ipynb
@@ -18,7 +20,11 @@ Estructura del repositorio:<br />
 ├── README.md
 ├──.gitignore
 ```
-Descripción de los trabajos: <br />
+<br />
+
+> ###  Descripción de los trabajos: <br />
+<br />
+
 *   Desafío 1: [Word2vec](https://github.com/arigarmendia/NLP/blob/main/Desafio_1/Word2vector.ipynb)<br />
     Implementación de varias funciones para transformar palabras a vectores, utilizando únicamente Numpy. Incluye identificación del vocabulario del corpus, transformación de los documentos del corpus con One-Hot encoding, TF, TF-IDF y una función para calcular Similitud Coseno.  
 
@@ -28,5 +34,5 @@ Descripción de los trabajos: <br />
 *   Desafío 3: [Custom embeddings con Gensim](https://github.com/arigarmendia/NLP/tree/main/Desafio_3) <br />
     Generación y ensayo de embeddings creados con la librería Gensim a partir de los modelos CBOW y Skipgram. Los embeddings se generaron a partir de un corpus en español basado en el cuento "El caballero de la armadura oxidada". Para visualizar agrupación entre vectores se utilizó TSNE con librería Sklearn.
 
-*   Desafío 4: Predictor de próxima palabra <br />
+*   Desafío 4: [Predictor de próxima palabra](https://github.com/arigarmendia/NLP/blob/main/Desafio_4/pred_next_word.ipynb) <br />
     Ensayo de predictor "many-to-one" utilizando embeddings y redes LSTM. Se utilizó un corpus basado en letras de canciones en inglés de la banda Coldplay (aprox. 62k palabras). Adicionalmente se probó un generador de secuencias autorregresivo utilizando los modelos ensayados.
