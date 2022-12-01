@@ -17,6 +17,12 @@
 ├── Desafio_4
 │   ├── pred_next_word.ipynb
 │   ├── dataset
+├── Desafio_5
+│   ├── Desafio5_Notebook1.ipynb
+│   ├── Desafio5_Notebook2.ipynb
+│   ├── Pruebas_extra.ipynb
+│   ├── dataset
+│       ├── clothing_ecommerce_reviews.csv
 ├── README.md
 ├──.gitignore
 ```
@@ -36,3 +42,8 @@
 
 *   Desafío 4: [Predictor de próxima palabra](https://github.com/arigarmendia/NLP/blob/main/Desafio_4/pred_next_word.ipynb) <br />
     Ensayo de predictor "many-to-one" utilizando embeddings y redes LSTM. Se utilizó un corpus basado en letras de canciones en inglés de la banda Coldplay (aprox. 62k palabras). Adicionalmente se probó un generador de secuencias autorregresivo utilizando los modelos ensayados.
+
+*   Desafío 5: <br />
+    [Notebook 1 - Dataset con stop words]()<br />
+    [Notebook 2 - Dataset sin stop words]()<br />
+    Sentiment analysis utilizando el [dataset](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews/code) de ecommerce clothing reviews de Kaggle. Se utilizaron custom embeddings y embedding pre-entrenados Fasttext con arquitectura de redes LSTM bidireccionales y se ejecutaron pruebas con y sin stop-words. Se implementaron técnicas de undersampling y entrenamiento con pesos (class_weights) para contrarrestar los efectos del desbalance de clases en el dataset.
