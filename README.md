@@ -47,3 +47,9 @@
     [Notebook 1 - Dataset con stop words](https://github.com/arigarmendia/NLP/blob/main/Desafio_5/Desafio5_Notebook1.ipynb)<br />
     [Notebook 2 - Dataset sin stop words](https://github.com/arigarmendia/NLP/blob/main/Desafio_5/Desafio5_Notebook2.ipynb)<br />
     Sentiment analysis utilizando el [dataset](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews/code) de ecommerce clothing reviews de Kaggle. Se utilizaron custom embeddings y embedding pre-entrenados Fasttext con arquitectura de redes LSTM bidireccionales y se ejecutaron pruebas con y sin stop-words. Se implementaron técnicas de undersampling y entrenamiento con pesos (class_weights) para contrarrestar los efectos del desbalance de clases en el dataset.
+
+
+*   Desafío 6: <br />
+    [bot_qa_model1](https://github.com/arigarmendia/NLP/blob/main/Desafio_6/bot_qa_model1.ipynb)<br />
+    [bot_qa_model2_dropout](https://github.com/arigarmendia/NLP/blob/main/Desafio_6/bot_qa_model2.ipynb)<br />
+    Bot de preguntas y respuestas   Se utilizaron embedding pre-entrenados Fasttext con arquitectura encoder-decoder. Se analizaron 3 modelos basados en esencialmente la misma arquitectura pero con algunas variaciones (agregado de distintas opciones de dropout para mitigar el overtitting). 
