@@ -1,6 +1,6 @@
-### CEIA - FIUBA
+![](https://github.com/arigarmendia/NLP/blob/main/banner_NLP.png)
 
-## **Procesamiento de Lenguaje Natural (NLP)**<br />
+### CEIA - FIUBA
 
 ### Alumna: Ariadna Garmendia - 5ta Cohorte 2022 <br /><br />
 
