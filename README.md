@@ -23,6 +23,11 @@
 │   ├── Pruebas_extra.ipynb
 │   ├── dataset
 │       ├── clothing_ecommerce_reviews.csv
+├── Desafio_6
+│   ├── bot_qa_model1.ipynb
+│   ├── bot_qa_model2.ipynb
+│   ├── bot_qa_model3.ipynb
+│   ├── conclusiones.md
 ├── README.md
 ├──.gitignore
 ```
