@@ -2,6 +2,7 @@
 
 ##  Ariadna Garmendia - Carrera de Especialización en Inteligencia Artificial  <br /><br />
 
+![](https://github.com/arigarmendia/NLP/blob/main/herramientas.png)
 
 
 > ###   Contenido: <br />
