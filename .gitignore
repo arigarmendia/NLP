@@ -2,3 +2,4 @@
 .DS_Store
 fasttext.pkl
 data_volunteers.json
+model.png
