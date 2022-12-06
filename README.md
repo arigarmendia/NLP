@@ -2,8 +2,9 @@
 
 ##  Ariadna Garmendia - Carrera de Especialización en Inteligencia Artificial  <br /><br />
 
+
+
 > ###   Contenido: <br />
-<br />
 
 *   ⭐ Desafío 1: [Word2vec](https://github.com/arigarmendia/NLP/blob/main/Desafio_1/Word2vector.ipynb)<br />
     Implementación de varias funciones para transformar palabras a vectores, utilizando únicamente Numpy. Incluye identificación del vocabulario del corpus, transformación de los documentos del corpus con One-Hot encoding, TF, TF-IDF y una función para calcular Similitud Coseno.  
@@ -52,3 +53,5 @@
 ├──.gitignore
 ```
 <br />
+
+####    Preguntas? ✉️ arigarmendia@gmail.com
