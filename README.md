@@ -21,9 +21,9 @@
 
 
 *   ⭐ Desafío 6: [bot_qa](https://github.com/arigarmendia/NLP/tree/main/Desafio_6)<br />
-    Bot de preguntas y respuestas, conformado a partir de una arquitectura encoder-decoder con embeddings pre-entrenados Fasttext. Se analizaron 3 modelos basados en esencialmente la misma arquitectura pero con algunas variaciones (agregado de distintas opciones de dropout para mitigar el overfitting). 
+    Bot de preguntas y respuestas, conformado a partir de una arquitectura encoder-decoder con embeddings pre-entrenados Fasttext. Se analizaron 3 modelos basados en esencialmente la misma arquitectura pero con algunas variaciones (agregado de distintas opciones de dropout para mitigar el overfitting). <br /><br />
 
-![](https://github.com/arigarmendia/NLP/blob/main/herramientas.png)
+![](https://github.com/arigarmendia/NLP/blob/main/herramientas.png)<br /><br />
 
 > ### 💡 Estructura del repositorio:<br />
 ```bash
